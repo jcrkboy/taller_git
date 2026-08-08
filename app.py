@@ -20,6 +20,7 @@ app.config.suppress_callback_exceptions = True
 
 
 # Load data from csv
+# Comment for new branch changes
 def load_data():
     df = pd.read_csv('datos_energia.csv')
     df['time'] = pd.to_datetime(df['time'])
