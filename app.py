@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import datetime as dt
 
-
+# prueba git colaborativo cap 4 punot 8
 
 app = dash.Dash(
     __name__,
